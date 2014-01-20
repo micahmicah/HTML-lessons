@@ -8,7 +8,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Your Page Title Here :)</title>
+	<title>HTML</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -18,9 +18,11 @@
 
 	<!-- CSS
   ================================================== -->
+  <link href="http://cloud.webtype.com/css/8ea50f90-2f23-41a9-848a-d3c30a8d4f33.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="stylesheets/base.css">
 	<link rel="stylesheet" href="stylesheets/skeleton.css">
 	<link rel="stylesheet" href="stylesheets/layout.css">
+
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -33,6 +35,16 @@
 	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 
+	<!-- Scripts
+	================================================== -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/jquery.lettering-0.6.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".main-title").lettering();
+		});
+
+	</script>
 </head>
 <body>
 
@@ -41,86 +53,179 @@
 	<!-- Primary Page Layout
 	================================================== -->
 
-	<!-- Delete everything in this .container and get started on your own site! -->
+			<header class="page-title">
+				<section class="container">
+					<h2 class="offset-by-four">
+						Rhode<br> Island<br> School of<br> Design<br> 
+						<span class="sub-title">Type 2</span>
+
+					</h2>
+
+					<h1 class="alpha main-title offset-by-four">
+						HTML Resources
+					</h1>
+				</section>
+
+			</header>
 
 	<div class="container">
+		
 		<div class="sixteen columns">
 			
 			<nav class="four columns">
-				<ul>
+				<ol>
 					<li><a href="#">HyperText</a></li>
 					<li><a href="#">Tags</a></li>
 					<li><a href="#">Structure</a></li>
 					<li><a href="#">Classes</a></li>
 					<li><a href="#">Resources</a></li>
 
-				</ul>
-
-
-
+				</ol>
 			</nav>
+
 
 			<section class="twelve columns offset-by-four">
 					
 					
-					<h2>
-						Rhode Island School of Design: 
-						<span class="sub-title">Type 2</span>
-
-					</h2>
-
-					<h1>
-						HTML Resources
-					</h1>
 
 					<h3>Tags</h3>
 					<p>
-						Tags are used in by designers to give structure and meaning to the information.
+						Tags are used in by designers to give structure and meaning to information. This structure and meaning is helpful to make the information.
 					</p>
 					<code>
-						<p>Headings</p>
+						<h4>Headings</h4>
 						<dl class="row">
-							<dt class="alpha two columns">&lt;h1&gt; &lt;/h1&gt;</dt>
-							<dd class="nine columns">Heading 1: This is cosidered to be what the page is about.</dd>
+							<dt class="alpha three columns">&lt;h1&gt; &lt;/h1&gt;</dt>
+							<dd class="eight columns">Heading 1: This is cosidered to be what the page is about.</dd>
 						</dl>
 
 
 						<dl class="row">
-							<dt class="alpha two columns">&lt;h2&gt; &lt;/h2&gt;</dt>
-							<dd class="nine columns">Heading 2</dd>
+							<dt class="alpha three columns">&lt;h2&gt; &lt;/h2&gt;</dt>
+							<dd class="eight columns">Heading 2</dd>
 						</dl>
 
 						
 
 						<dl class="row">
-							<dt class="alpha two columns">&lt;h3&gt; &lt;/h3&gt;</dt>
-							<dd class="nine columns">Heading 3</dd>
+							<dt class="alpha three columns">&lt;h3&gt; &lt;/h3&gt;</dt>
+							<dd class="eight columns">Heading 3</dd>
 						</dl>
 
 						<dl class="row">
-							<dt class="alpha two columns">&lt;p&gt; &lt;/p&gt;</dt>
-							<dd class="nine columns">Paragraph</dd>
-						</dl>
-
-						<p>Listssss</p>
-						<dl class="row">
-							<dt class="alpha two columns">&lt;ol&gt; &lt;/ol&gt;</dt>
-							<dd class="nine columns">Ordered List</dd>
+							<dt class="alpha three columns">&lt;p&gt; &lt;/p&gt;</dt>
+							<dd class="eight columns">Paragraph</dd>
 						</dl>
 
 						<dl class="row">
-							<dt class="alpha two columns">&lt;ul&gt; &lt;/ul&gt;</dt>
-							<dd class="nine columns">Unordered List</dd>
+							<dt class="alpha three columns">&lt;em&gt; &lt;/em&gt;</dt>
+							<dd class="eight columns">Emphasis</dd>
 						</dl>
 
 						<dl class="row">
-							<dt class="alpha two columns">&lt;li&gt; &lt;/li&gt;</dt>
-							<dd class="nine columns">List Item</dd>
+							<dt class="alpha three columns">&lt;strong&gt; &lt;/strong&gt;</dt>
+							<dd class="eight columns">Strong</dd>
 						</dl>
+
+						<dl class="row">
+							<dt class="alpha three columns">&lt;br&gt; &lt;/br&gt;</dt>
+							<dd class="eight columns">Line break:</dd>
+						</dl>
+
+						<dl class="row">
+							<dt class="alpha three columns">&lt;blockquote&gt; &lt;/blockquote&gt;</dt>
+							<dd class="eight columns">Blockquote</dd>
+						</dl>
+
+						<dl class="row">
+							<dt class="alpha three columns">&lt;span&gt; &lt;/span&gt;</dt>
+							<dd class="eight columns">Span</dd>
+						</dl>
+
+						<h4>Lists</h4>
+						<dl class="row">
+							<dt class="alpha three columns">&lt;ol&gt; &lt;/ol&gt;</dt>
+							<dd class="eight columns">Ordered List</dd>
+						</dl>
+
+						<dl class="row">
+							<dt class="alpha three columns">&lt;ul&gt; &lt;/ul&gt;</dt>
+							<dd class="eight columns">Unordered List</dd>
+						</dl>
+
+						<dl class="row">
+							<dt class="alpha three columns">&lt;dl&gt; &lt;/dl&gt;</dt>
+							<dd class="eight columns">Description List</dd>
+						</dl>
+
+						<dl class="row">
+							<dt class="alpha three columns">&lt;li&gt; &lt;/li&gt;</dt>
+							<dd class="eight columns">List Item</dd>
+						</dl>
+
+
+
+						<h4>Structure</h4>
+						<dl class="row">
+							<dt class="alpha three columns">&lt;article&gt; &lt;/article&gt;</dt>
+							<dd class="eight columns">Article:</dd>
+						</dl>
+
+						<dl class="row">
+							<dt class="alpha three columns">&lt;header&gt; &lt;/header&gt;</dt>
+							<dd class="eight columns">Header:</dd>
+						</dl>
+
+						<dl class="row">
+							<dt class="alpha three columns">&lt;nav&gt; &lt;/nav&gt;</dt>
+							<dd class="eight columns">Nav: </dd>
+						</dl>
+
+
+						<dl class="row">
+							<dt class="alpha three columns">&lt;section&gt; &lt;/section&gt;</dt>
+							<dd class="eight columns">Section: The section</dd>
+						</dl>
+
+						<dl class="row">
+							<dt class="alpha three columns">&lt;div&gt; &lt;/div&gt;</dt>
+							<dd class="eight columns">Div: The div</dd>
+						</dl>
+
+						<dl class="row">
+							<dt class="alpha three columns">&lt;aside&gt; &lt;/aside&gt;</dt>
+							<dd class="eight columns">Aside: </dd>
+						</dl>
+
+
 
 						
 					</code>
 			</section>
+
+			<section id="structure" class="twelve columns offset-by-four">
+				<h3>Structure</h3>
+				<p>Markup structures allow designers to have access to differnet groups or blocks of information. By having a stake in how each piece of information is related to one another designers can develop.</p>
+
+				<code>
+					<p>
+						&lt;div class="article"&gt;<br>
+						<div class="indent-1">&lt;h2&gt;Heading&lt;h2&gt;<br></div>
+						&lt;p class="intro"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in mi vitae nibh vestibulum cursus nec at dolor. Fusce pharetra accumsan fermentum. Sed adipiscing dignissim pellentesque. Nunc malesuada tristique leo in imperdiet. Nam lobortis vulputate mauris, quis posuere dui ultricies in. Aliquam congue turpis eget volutpat tempor. Nam luctus nulla id quam faucibus iaculis ac ac velit. Vestibulum hendrerit libero risus, vitae malesuada enim vehicula eu.&lt;/p&gt;<br><br>
+
+						&lt;p&gt;Sed porta eget ipsum sed elementum. Cras ultrices massa eu mattis suscipit. Mauris volutpat arcu vel bibendum eleifend. Pellentesque sit amet ligula non tortor hendrerit auctor. Suspendisse semper sed odio et venenatis. Fusce quis turpis non nunc placerat convallis. Fusce pharetra, odio at condimentum cursus, purus risus lacinia metus, sed eleifend dui dui convallis ante. Integer faucibus pulvinar mattis. Cras mattis suscipit urna, in facilisis justo sodales ut.&lt;/p&gt;<br>
+						&lt;/div&gt;
+
+					</p>
+				</code>
+			</section>
+
+			<section class="twelve columns offset-by-four">
+				<h3>Classes</h3>
+
+
+			</section>
+
 
 			<section class="twelve columns offset-by-four">
 				<h3>Semantic Markup</h3>
@@ -131,21 +236,20 @@
 				</p>
 			</section>
 
-			<section class="twelve columns offset-by-four">
-				<h3>Structure</h3>
+			
 
+			
 
-
-			</section>
-
-			<section class="twelve columns offset-by-four">
-				<h3>Classes</h3>
-
-
-			</section>
-
-			<section class="twelve columns offset-by-four">
+			<section id="resources" class="twelve columns offset-by-four">
 				<h3>Resources</h3>
+				<p><a href="http://www.dontfeartheinternet.com/" target="new">Don't Fear the Internet</a></p>
+
+				<p><a href="http://www.w3schools.com/tags/default.asp?utm_source=twitterfeed&utm_medium=twitter" target="new">Comprehensive List of HTML tags</a></p>
+
+				<p><a href="http://www.cssbasics.com/" target="new">CSS Basics</a></p>
+
+				<p><a href="http://css-tricks.com/" target="new">CSS Tricks</a></p>
+
 
 
 			</section>
